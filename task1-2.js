@@ -30,8 +30,15 @@ let count = 0;
             arr.push(i); 
         }
     }
+    if(arr.length == 1){
+        alert("Your prime number is " + arr[0]);
+    }
+    else if(arr.length == 0){
+        alert("You don't have prime numbers in this range");
+    }
+    else{
     alert("Your smallest prime number is  " + arr[0] + " and biggest is " + arr[(arr.length)-1]);
-    
+}
 
         
     
